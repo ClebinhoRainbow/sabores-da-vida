@@ -1,0 +1,209 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.background-banner{
+    width: 100%;
+    height: 20%;
+    opacity: .6;
+    position: relative;
+}
+.caixa{
+    position: relative;
+    background-image: url(imagens/banner.jpg);
+    background-size: 100%;
+    width: 100%;
+    padding: 2% 2%;
+    
+}
+
+.logo{
+    position: absolute;
+    left: 2%;
+    top :20%;
+}
+.logo h2{ 
+    display: inline-block;
+    position: relative;
+    top :25px;
+    left: 10px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.logo img{
+    vertical-align: top;
+    width: 10%;
+    background: #E87990;
+    padding: 1% 1%;
+    border-radius: 100%;
+    display: inline-block;
+}
+nav{
+    position: absolute;
+    right: 8%;
+    top :25%;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+.caixa h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5em;
+    margin: 2em auto .5em;
+}
+.caixa p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 auto 1em;
+}
+.botao-sabores{
+    text-align: center;
+    background-color: #E87990;
+    width: 10%;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1% 1%;
+    margin: 0 auto;
+    border-radius: 10%;
+    
+}
+.sobre{
+    background: #FFFFCC;
+    border: black solid 2px;
+    
+    
+}
+.vantagens{
+    
+    padding: 2% 2%;
+    width: 940px;
+    margin: 0px auto;
+}
+
+.vantagens li{
+    display: inline-block;
+    width: 30%;
+    border: black solid 1px;
+    padding: 5px 5px;
+    border-radius: 10px;
+   font-size: 18px;
+   margin: 0 .2em;
+   background: #E8D49A;
+  
+}
+.titulo-item-vantagens h2
+{
+    vertical-align: top;
+    display: inline-block;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.vantagens img{
+    width: 48px;
+}
+.texto-sobre{
+    width: 940;
+    text-align: center;
+    /*background: linear-gradient(#8F9293,#DBDBCC);*/
+    
+}
+.texto-sobre h2{
+    font-weight: bold;
+    font-size: 2em;
+    margin: 1em ;
+}
+.texto-sobre p{
+    padding: 0 20% 1em ;
+    font-size: 25px;
+
+}
+.pedidos{
+    background: #bdc7d9;
+    padding: 2% 2%;
+
+}
+.tipos-pedido{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+.tipos-pedido li{
+    display: inline-block;
+    width: 30%;
+    border: 4px solid;
+    background: #FFFFCC;
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+
+}
+
+.tipos-pedido  h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: .5em;
+
+}
+
+.descricao{
+    font-weight: 18px;
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.preco{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.botao-pedidos{
+    text-align: center;
+    background: #E87990;
+    width: 50%;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1% 1%;
+    margin:.5em auto;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+.mapa{
+    width: 940px;
+    margin: 1em auto;
+}
+.mapa h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: .5em .5em;
+}
+.mapa p{
+    text-align: center;
+    font-size: 1em;
+    margin: 0 0 .75em
+    
+
+}
+footer{
+    text-align: center;
+    background: url(imagens/bg.jpg);
+    padding: 40px 0;
+}
+.logo-footer{
+    vertical-align: top;
+    width: 10%;
+    background: #E87990;
+    padding: 1% 1%;
+    border-radius: 100%;
+    display: inline-block;
+}
+.copyright{
+    color:#FFFFFC;
+}
